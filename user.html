@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User Form </title>
+
+    <link rel="stylesheet" type="css/text" href="design.css">
+</head>
+    <h3>Please Fill the form</h3>
+<body> 
+    <div id="card">
+    <p>Here is a list of books, <br>
+        type which one you favor the most!
+        <ul><strong>Books</strong></ul>
+       <li> Harry Potter</li>
+       <li> Witch Hunt</li>
+       <li>Snow White</li>
+    </p>
+    <form method="GET" action="/save">
+    NAME: 
+    <input type="text" name="user"><br>
+    FAVORITE BOOK:
+    <input type="text" name="book"><br>
+    
+    <input type="submit">
+    </form>
+    </div>
+    
+</body>
+<style>
+    #card { 
+    width:fit-content;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.52);
+    align-content: center;
+    margin-top: 2%;
+    padding: 3%;
+    background-color: rgba(185, 231, 99, 0.19);
+}
+
+    input {
+        margin-top:1.5%;
+        
+    }
+ 
+    ul {
+        margin-left:-5%;
+        
+    }
+    li {
+        font-style: italic;
+        font-size: 9px;
+    }
+    p {
+        font-size: 10px;
+    }
+</style>
+</html>
